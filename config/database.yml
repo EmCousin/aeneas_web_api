@@ -82,4 +82,3 @@ production:
   <<: *default
   database: aeneas_web_api_production
   username: aeneas
-  password: <%= ENV['AENEAS_WEB_API_PASSWORD'] %>
